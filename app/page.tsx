@@ -79,7 +79,7 @@ export default function Home() {
           <Reveal className="split__media">
             <div className="photo-stack">
               <Parallax src="/images/engineers-comms-room.jpg" className="photo-stack__main" />
-              <div className="photo-stack__badge"><strong>15+</strong><span>years building Australian networks</span></div>
+              <div className="photo-stack__badge"><strong>10+</strong><span>years building Australian networks</span></div>
               <div className="photo-stack__card">
                 {['Design approved', 'Cabling certified', 'Handover pack issued'].map((t) => (
                   <span key={t}><Check size={14} /> {t}</span>

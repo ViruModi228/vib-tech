@@ -10,11 +10,11 @@ import { reasons, team, values } from '@/lib/data';
 export const metadata: Metadata = { title: 'About us' };
 
 const timeline = [
-  { year: '2010', text: 'Founded in Western Sydney as a two-person data cabling business.' },
-  { year: '2014', text: 'Expanded into enterprise Wi-Fi and point-to-point wireless links.' },
-  { year: '2018', text: 'Launched managed network support with a 24/7 local help desk.' },
-  { year: '2022', text: 'Opened project teams in Melbourne and Brisbane.' },
-  { year: '2026', text: 'Over 2,400 projects delivered for clients across every state.' },
+  { year: '2016', text: 'VIB Tech Pty Ltd founded in South Australia to deliver telecommunications construction and cabling.' },
+  { year: '2018', text: 'Grew into fibre and copper network construction, including work on the nbn™ rollout.' },
+  { year: '2020', text: 'Added network planning and design, taking projects from first survey to final as-builts.' },
+  { year: '2023', text: 'Expanded testing, commissioning and fault restoration crews for carriers and businesses.' },
+  { year: '2026', text: 'More than 10,000 projects delivered for clients across Australia.' },
 ];
 
 export default function AboutPage() {
@@ -57,7 +57,7 @@ export default function AboutPage() {
       <section className="section section--alt">
         <div className="container">
           <Reveal className="section-head"><span className="eyebrow">Leadership</span><h2>The people behind your network</h2></Reveal>
-          <div className="cards cards--4">
+          <div className="cards cards--2">
             {team.map((m, i) => (
               <Reveal key={m.name} delay={i * 0.06}>
                 <div className="card card--team"><span className="team-avatar">{m.initials}</span><h3>{m.name}</h3><p>{m.role}</p></div>

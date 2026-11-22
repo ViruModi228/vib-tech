@@ -4,8 +4,8 @@ export const company = {
   phone: '0404 441 610',
   phoneHref: 'tel:0404 441 610',
   email: 'vibtechpty@gmail.com',
-  address: 'Level 4, 120 Example Street, Parramatta NSW 2150',
-  hours: 'Mon–Fri 7:30am – 5:30pm AEST',
+  address: '92 Kapinka Pde, Riverlea Park SA 5120',
+  hours: 'Mon–Fri 7:30am – 5:30pm ACST',
   abn: '11 623 997 571',
   acn: '623 997 571',
 };
@@ -109,8 +109,8 @@ export const industries = [
 ];
 
 export const stats = [
-  { value: 15, suffix: '+', label: 'Years in the field' },
-  { value: 2400, suffix: '+', label: 'Projects delivered' },
+  { value: 10, suffix: '+', label: 'Years in the field' },
+  { value: 10, suffix: 'k+', label: 'Projects delivered' },
   { value: 99.98, suffix: '%', label: 'Network uptime', decimals: 2 },
   { value: 24, suffix: '/7', label: 'Local support' },
 ];
@@ -167,10 +167,8 @@ export const values = [
 ];
 
 export const team = [
-  { name: 'Vikram Bhatt', role: 'Director', initials: 'VB' },
-  { name: 'Isabelle Nguyen', role: 'Head of Engineering', initials: 'IN' },
-  { name: 'Ben Carter', role: 'Field Operations Manager', initials: 'BC' },
-  { name: 'Aisha Rahman', role: 'Client Success Lead', initials: 'AR' },
+  { name: 'Piyush Gajera', role: 'Director', initials: 'PG' },
+  { name: 'Vibhuti Gajera', role: 'Director', initials: 'VG' },
 ];
 
 export type Job = {
@@ -189,7 +187,7 @@ export const jobs: Job[] = [
     title: 'Telecommunications Field Engineer',
     icon: 'HardHat',
     type: 'Full-time',
-    location: 'Sydney, NSW · Field based',
+    location: 'Riverlea Park, SA · Field based',
     summary: 'Lead installation, testing and fault restoration on fibre, copper and wireless networks, and direct crews and subcontractors on site.',
     duties: [
       { area: 'Site assessment & field engineering', pct: 25, items: ['Survey pits, conduits, risers, comms rooms and customer premises', 'Interpret designs and as-builts, and solve field variances with the Network Planner', 'Prepare work methodologies, access, traffic and isolation plans'] },
@@ -204,7 +202,7 @@ export const jobs: Job[] = [
     title: 'Telecommunications Network Planner',
     icon: 'Map',
     type: 'Full-time',
-    location: 'Sydney, NSW · Hybrid',
+    location: 'Riverlea Park, SA · Hybrid',
     summary: 'Turn work orders into buildable network designs: feasibility, routes, loss budgets, estimates and the approvals to make it happen.',
     duties: [
       { area: 'Requirements analysis & feasibility', pct: 20, items: ['Analyse work orders, demand and existing capacity to set scope', 'Run desktop and field feasibility using carrier records, GIS and BYDA data', 'Recommend the preferred network solution'] },
@@ -219,7 +217,7 @@ export const jobs: Job[] = [
     title: 'Telecommunications Technical Officer',
     icon: 'Activity',
     type: 'Full-time',
-    location: 'Sydney, NSW · Office & field',
+    location: 'Riverlea Park, SA · Office & field',
     summary: 'Own testing, equipment configuration and quality assurance, and help our engineers and crews get it right first time.',
     duties: [
       { area: 'Technical testing & analysis', pct: 30, items: ['Acceptance and diagnostic testing of fibre, copper and wireless links', 'Analyse results, flag non-conformances and recommend fixes', 'Maintain the calibrated test equipment register'] },

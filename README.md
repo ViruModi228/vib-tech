@@ -64,8 +64,8 @@ scripts/             build-preview.mjs (portable preview build)
 
 ## 6. Placeholders to replace before going live
 
-Phone number, email, office addresses, testimonials, stats, timeline and leadership team names in
-`lib/data.ts` and `app/contact/page.tsx`, plus the map placeholder on the Contact page.
+Testimonials, the uptime/support stats, the director job titles and the timeline milestones between
+2016 and 2026 in `lib/data.ts` and `app/about/page.tsx`, plus the map placeholder on the Contact page.
 
 ## 7. Next steps for production
 

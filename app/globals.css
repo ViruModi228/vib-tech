@@ -280,7 +280,8 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
 
 /* ---------- Cards ---------- */
 .cards { display: grid; gap: 18px; grid-template-columns: 1fr; }
-@media (min-width: 560px) { .cards--4, .cards--3 { grid-template-columns: repeat(2, 1fr); } }
+.cards--2 { max-width: 720px; margin-inline: auto; }
+@media (min-width: 560px) { .cards--4, .cards--3, .cards--2 { grid-template-columns: repeat(2, 1fr); } }
 @media (min-width: 1024px) {
   .cards--3 { grid-template-columns: repeat(3, 1fr); gap: 24px; }
   .cards--4 { grid-template-columns: repeat(4, 1fr); gap: 22px; }

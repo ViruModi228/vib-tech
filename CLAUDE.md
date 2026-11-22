@@ -55,7 +55,7 @@ application/resume upload or newsletter. "Request a quote", service and job butt
 ## Content notes
 - Logo files are in `public/brand/` (`vib-mark.png` for header/footer); favicons are `app/icon.png`, `app/apple-icon.png`, `app/favicon.ico`.
   The client has nbn's permission to use the nbn™ mark shown in the full logo.
-- Real: ABN 11 623 997 571, ACN 623 997 571. Placeholders: phone 1300 842 832, hello@vibtech.com.au, addresses, testimonials, stats, team names.
+- Real: ABN 11 623 997 571, ACN 623 997 571, founded 2016, 10k+ projects, address 92 Kapinka Pde, Riverlea Park SA 5120, directors Piyush and Vibhuti Gajera. Placeholders: testimonials, other stats, timeline milestones between 2016 and 2026.
 - Careers page lists roles only (no application form); "Enquire about this role" goes to the contact form.
 - Careers roles come from the client's position descriptions (Field Engineer, Network Planner, Technical Officer),
   including the approximate % time split per duty area. Keep those percentages accurate if editing.

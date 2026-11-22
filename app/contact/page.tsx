@@ -9,16 +9,14 @@ import { company } from '@/lib/data';
 export const metadata: Metadata = { title: 'Contact us' };
 
 const faqs = [
-  { q: 'Which areas do you service?', a: 'We have teams in Sydney, Melbourne and Brisbane, and travel nationwide for larger projects, including regional and remote sites.' },
+  { q: 'Which areas do you service?', a: 'We’re based in Riverlea Park, north of Adelaide, and travel nationwide for larger projects, including regional and remote sites.' },
   { q: 'How quickly can you respond to a fault?', a: 'Managed support clients get SLA-backed response times from 1 hour for critical faults. For everyone else, we aim to attend within one business day.' },
   { q: 'Do you offer free site surveys?', a: 'Yes. For most projects we’ll visit your site, assess what you have and provide a fixed-price proposal at no cost.' },
   { q: 'Are your technicians licensed?', a: 'All cabling is carried out by ACMA-registered cablers, and our engineers hold current vendor certifications. We’re fully insured.' },
 ];
 
 const offices = [
-  { city: 'Sydney (Head office)', addr: company.address },
-  { city: 'Melbourne', addr: 'Suite 8, 55 Example Road, Docklands VIC 3008' },
-  { city: 'Brisbane', addr: 'Level 2, 10 Example Lane, Fortitude Valley QLD 4006' },
+  { city: 'Head office', addr: company.address },
 ];
 
 export default function ContactPage() {
@@ -45,7 +43,7 @@ export default function ContactPage() {
                 <path d="M260 0 Q 240 100 300 200" className="map__road" />
               </svg>
               <span className="map__pin"><MapPin size={28} /></span>
-              <span className="map__label">Parramatta, NSW</span>
+              <span className="map__label">Riverlea Park, SA</span>
             </div>
           </Reveal>
           <Reveal delay={0.1}><ContactForm /></Reveal>
