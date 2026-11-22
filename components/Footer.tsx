@@ -40,7 +40,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="container footer__bottom">
-        <span>© {new Date().getFullYear()} {company.legal}. ABN {company.abn} · ACN {company.acn}</span>
+        <span>© 2016 {company.legal}. ABN {company.abn} · ACN {company.acn}</span>
         <span className="footer__legal">
           <a href="#">Privacy policy</a>
           <a href="#">Terms of use</a>
